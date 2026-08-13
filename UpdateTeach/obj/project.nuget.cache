@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "DR66BMXc4iI=",
+  "success": true,
+  "projectFilePath": "E:\\VsProgram\\UpdateTeach\\UpdateTeach\\UpdateTeach.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\suan.xu\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
+    "C:\\Users\\suan.xu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\suan.xu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
+    "C:\\Users\\suan.xu\\.nuget\\packages\\sharpcompress\\0.50.4\\sharpcompress.0.50.4.nupkg.sha512",
+    "C:\\Users\\suan.xu\\.nuget\\packages\\ssh.net\\2025.1.0\\ssh.net.2025.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
