@@ -257,11 +257,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VsProgram\\UpdateTeach\\UpdateTeach\\UpdateTeach.csproj",
+      "projectUniqueName": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\UpdateTeach.csproj",
       "projectName": "UpdateTeach",
-      "projectPath": "E:\\VsProgram\\UpdateTeach\\UpdateTeach\\UpdateTeach.csproj",
+      "projectPath": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\UpdateTeach.csproj",
       "packagesPath": "C:\\Users\\suan.xu\\.nuget\\packages\\",
-      "outputPath": "E:\\VsProgram\\UpdateTeach\\UpdateTeach\\obj\\",
+      "outputPath": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

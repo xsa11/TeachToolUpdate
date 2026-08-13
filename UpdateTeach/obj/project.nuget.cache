@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DR66BMXc4iI=",
+  "dgSpecHash": "vTNX/awKTY4=",
   "success": true,
-  "projectFilePath": "E:\\VsProgram\\UpdateTeach\\UpdateTeach\\UpdateTeach.csproj",
+  "projectFilePath": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\UpdateTeach.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\suan.xu\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\suan.xu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
