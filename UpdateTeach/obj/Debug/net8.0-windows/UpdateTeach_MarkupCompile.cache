@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\VsProgram\TeachToolUpdate\UpdateTeach\obj\Debug\net8.0-windows\
+E:\code\TeachToolUpdate\UpdateTeach\obj\Debug\net8.0-windows\
 UpdateTeach
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-E:\VsProgram\TeachToolUpdate\UpdateTeach\App.xaml
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+E:\code\TeachToolUpdate\UpdateTeach\App.xaml
 11407045341
-11271601731
+11562050264
 61307774105
-203-1807364122
+203778621712
 MainWindow.xaml;
 
-True
+False
 
