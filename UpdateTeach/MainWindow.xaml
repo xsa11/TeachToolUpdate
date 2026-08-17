@@ -75,7 +75,6 @@
             <ComboBox Name="comb_local" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left"   VerticalAlignment="Center" Width="180" SelectionChanged="comb_local_SelectionChanged"/>
             <ComboBox Name="comb_Res" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left"   VerticalAlignment="Center" Width="180"/>
             <Button Name="btn_Search" Grid.Row="3"  Grid.Column="1" Content="查找" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btn_Search_Click" Height="30" Width="80"/>
-            <Label Grid.Row="4"  Grid.Column="0"  Grid.ColumnSpan="2" Name="lbl_SearchInfo" Content="备份文件放在D:\TeachBackup路径下" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
 
         </Grid>
     </Grid>
