@@ -32,11 +32,19 @@ namespace UpdateTeach
                     shellStream = client.CreateShellStream("xterm", 80, 24, 800, 600, 1024);
                     // 执行 cd 命令（改变目录）
                     string cmd1 = "cd /userfs/app && ps | grep OIMAUI | grep -v grep | awk '{print $1}' | xargs kill";
+<<<<<<< HEAD
                     string cmd3 = "cd /userfs/app  && export LD_LIBRARY_PATH=$PWD && nohup ./OIMAUI  ";//1>oima_std.log 2>oima_err.log将日志分别写入到这两个文件中
 
                     shellStream.WriteLine(cmd1);
                     Thread.Sleep(500);
                     shellStream.WriteLine(cmd3);
+=======
+                    //string cmd2 = "cd /userfs/app  && export LD_LIBRARY_PATH=$PWD && nohup ./OIMAUI  ";//1>oima_std.log 2>oima_err.log将日志分别写入到这两个文件中
+
+                    shellStream.WriteLine(cmd1);
+                    Thread.Sleep(500);
+                    //shellStream.WriteLine(cmd2);
+>>>>>>> 2a012a34bda64d5d96377d8bfaf0083e37677fb0
                     Thread.Sleep(500);
                     return "重启示教器完成";
                 }

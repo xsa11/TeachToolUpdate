@@ -6,7 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>logo.ico</ApplicationIcon>
+<<<<<<< HEAD
     <TargetFramework>net8.0-windows</TargetFramework>
+=======
+>>>>>>> 2a012a34bda64d5d96377d8bfaf0083e37677fb0
   </PropertyGroup>
 
   <ItemGroup>
