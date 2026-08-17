@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\VsProgram\\TeachToolUpdate\\",
+  "WorkspaceRootPath": "E:\\code\\TeachToolUpdate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28B59C31-F813-45E6-BAF8-32A18D79A16A}|UpdateTeach\\UpdateTeach.csproj|e:\\vsprogram\\teachtoolupdate\\updateteach\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{28B59C31-F813-45E6-BAF8-32A18D79A16A}|UpdateTeach\\UpdateTeach.csproj|solutionrelative:updateteach\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\code\\TeachToolUpdate\\UpdateTeach\\UpdViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UpdateTeach\\UpdViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28B59C31-F813-45E6-BAF8-32A18D79A16A}|UpdateTeach\\UpdateTeach.csproj|e:\\vsprogram\\teachtoolupdate\\updateteach\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{28B59C31-F813-45E6-BAF8-32A18D79A16A}|UpdateTeach\\UpdateTeach.csproj|solutionrelative:updateteach\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\code\\TeachToolUpdate\\UpdateTeach\\UpdFTP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UpdateTeach\\UpdFTP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28B59C31-F813-45E6-BAF8-32A18D79A16A}|UpdateTeach\\UpdateTeach.csproj|e:\\vsprogram\\teachtoolupdate\\updateteach\\updviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28B59C31-F813-45E6-BAF8-32A18D79A16A}|UpdateTeach\\UpdateTeach.csproj|solutionrelative:updateteach\\updviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\code\\TeachToolUpdate\\UpdateTeach\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UpdateTeach\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28B59C31-F813-45E6-BAF8-32A18D79A16A}|UpdateTeach\\UpdateTeach.csproj|e:\\vsprogram\\teachtoolupdate\\updateteach\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{28B59C31-F813-45E6-BAF8-32A18D79A16A}|UpdateTeach\\UpdateTeach.csproj|solutionrelative:updateteach\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\code\\TeachToolUpdate\\UpdateTeach\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UpdateTeach\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28B59C31-F813-45E6-BAF8-32A18D79A16A}|UpdateTeach\\UpdateTeach.csproj|e:\\vsprogram\\teachtoolupdate\\updateteach\\updftp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28B59C31-F813-45E6-BAF8-32A18D79A16A}|UpdateTeach\\UpdateTeach.csproj|solutionrelative:updateteach\\updftp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\code\\TeachToolUpdate\\UpdateTeach\\MainWindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UpdateTeach\\MainWindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\code\\TeachToolUpdate\\UpdateTeach\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "UpdateTeach\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\code\\TeachToolUpdate\\UpdateTeach\\MainWindow.xaml.cs",
               "RelativeToolTip": "UpdateTeach\\MainWindow.xaml.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAApwGwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T01:56:31.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-07T01:56:31.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "App.xaml",
-              "DocumentMoniker": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\App.xaml",
+              "DocumentMoniker": "E:\\code\\TeachToolUpdate\\UpdateTeach\\App.xaml",
               "RelativeDocumentMoniker": "UpdateTeach\\App.xaml",
-              "ToolTip": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\App.xaml",
+              "ToolTip": "E:\\code\\TeachToolUpdate\\UpdateTeach\\App.xaml",
               "RelativeToolTip": "UpdateTeach\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-08-07T01:16:14.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "UpdFTP.cs",
-              "DocumentMoniker": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\UpdFTP.cs",
+              "DocumentMoniker": "E:\\code\\TeachToolUpdate\\UpdateTeach\\UpdFTP.cs",
               "RelativeDocumentMoniker": "UpdateTeach\\UpdFTP.cs",
-              "ToolTip": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\UpdFTP.cs",
+              "ToolTip": "E:\\code\\TeachToolUpdate\\UpdateTeach\\UpdFTP.cs",
               "RelativeToolTip": "UpdateTeach\\UpdFTP.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T02:19:00.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdViewModel.cs",
-              "DocumentMoniker": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\UpdViewModel.cs",
-              "RelativeDocumentMoniker": "UpdateTeach\\UpdViewModel.cs",
-              "ToolTip": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\UpdViewModel.cs",
-              "RelativeToolTip": "UpdateTeach\\UpdViewModel.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAtwCoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-03T02:42:50.99Z"
+              "WhenOpened": "2026-08-04T02:19:00.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UpdViewModel.cs",
+              "DocumentMoniker": "E:\\code\\TeachToolUpdate\\UpdateTeach\\UpdViewModel.cs",
+              "RelativeDocumentMoniker": "UpdateTeach\\UpdViewModel.cs",
+              "ToolTip": "E:\\code\\TeachToolUpdate\\UpdateTeach\\UpdViewModel.cs",
+              "RelativeToolTip": "UpdateTeach\\UpdViewModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAFMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T02:42:50.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\MainWindow.xaml",
+              "DocumentMoniker": "E:\\code\\TeachToolUpdate\\UpdateTeach\\MainWindow.xaml",
               "RelativeDocumentMoniker": "UpdateTeach\\MainWindow.xaml",
-              "ToolTip": "E:\\VsProgram\\TeachToolUpdate\\UpdateTeach\\MainWindow.xaml",
+              "ToolTip": "E:\\code\\TeachToolUpdate\\UpdateTeach\\MainWindow.xaml",
               "RelativeToolTip": "UpdateTeach\\MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-08-03T02:39:24.595Z",
               "EditorCaption": ""
