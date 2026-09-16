@@ -38,7 +38,7 @@ namespace UpdateTeach
                     Thread.Sleep(500);
                     shellStream.WriteLine(cmd2);
                     Thread.Sleep(500);
-                    return "重启示教器完成";
+                    return "等待重启示教器完成";
                 }
                 catch (Exception ex)
                 {

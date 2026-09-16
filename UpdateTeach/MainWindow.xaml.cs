@@ -12,6 +12,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
 using Renci.SshNet;
+using File = System.IO.File;
 
 namespace UpdateTeach
 {
@@ -31,7 +32,7 @@ namespace UpdateTeach
                 Application.Current.Dispatcher.Invoke(() => { comb_local.Items.Add(ip); });
 
             }
-           
+
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
@@ -48,32 +49,53 @@ namespace UpdateTeach
             ProgressBar.Value = 0;
             updFTP.progress = 0;
             ErrorInfo.Text = "";
-           var progress= Task.Run(async() =>
+            var progress = Task.Run(async () =>
+             {
+                 // 这里放置需要异步执行的代码
+                 while (updFTP.progress < 100)
+                 {
+                     Application.Current.Dispatcher.Invoke(() =>
+                     {
+                         ProgressBar.Value = updFTP.progress; // 更新进度条的值
+
+                     });
+
+                 }
+                 Application.Current.Dispatcher.Invoke(() =>
+                 {
+                     ProgressBar.Value = 100; // 更新进度条的值
+
+                 });
+             });
+            // 校验文件存在
+            if (File.Exists(localPath))
             {
-                // 这里放置需要异步执行的代码
-                while (updFTP.progress < 100)
+            
+
+
+                string newLocalPath =System.IO.Path.ChangeExtension(localPath, ".rar");
+
+                File.Move(localPath, newLocalPath); // 重命名
+                localPath = newLocalPath;
+                if (updFTP.Unrar(localPath, localPath))
                 {
-                    Application.Current.Dispatcher.Invoke(() =>
+                     newLocalPath = System.IO.Path.ChangeExtension(localPath, ".bin");
+
+                    File.Move(localPath, newLocalPath); // 重命名回去
+                    ErrorInfo.Text = await updFTP.ConnectFTP(host, port, username, password, remotePath, localPath, rad_Backup.IsChecked.Value);
+                    if (ErrorInfo.Text.ToString().Contains("更新示教器成功"))
                     {
-                        ProgressBar.Value = updFTP.progress; // 更新进度条的值
+                        ErrorInfo.Text = await updViewModel.ConnectSSH(host, port, username, password);
 
-                    });
-                  
+                    }
                 }
-                Application.Current.Dispatcher.Invoke(() =>
-                {
-                    ProgressBar.Value =100; // 更新进度条的值
-
-                });
-            });
-            if (updFTP.Unrar(localPath, localPath))
+            }
+            else
             {
-                ErrorInfo.Text = await updFTP.ConnectFTP(host, port, username, password, remotePath, localPath,rad_Backup.IsChecked.Value);
-                if (ErrorInfo.Text.ToString().Contains("更新示教器成功"))
-                {
-                    ErrorInfo.Text = await updViewModel.ConnectSSH(host, port, username, password);
-                  
-                }
+
+                MessageBox.Show("更新压缩包不存在");
+
+
             }
             btn_Search.IsEnabled = true;
             btn_Restart.IsEnabled = true;
@@ -102,12 +124,12 @@ namespace UpdateTeach
                 {
                     comb_Res.Items.Clear();
                 });
-                    foreach (var ip in onlineIpList)
+                foreach (var ip in onlineIpList)
                 {
-                    Application.Current.Dispatcher.Invoke(() => 
+                    Application.Current.Dispatcher.Invoke(() =>
                     {
-                      
-                        comb_Res.Items.Add(ip); 
+
+                        comb_Res.Items.Add(ip);
                     });
 
                 }
@@ -127,8 +149,8 @@ namespace UpdateTeach
             // 文件选择对话框
             OpenFileDialog dialog = new OpenFileDialog
             {
-                Filter = "RAR压缩包|*.rar",
-                Title = "请选择要解压的RAR文件"
+                Filter = "bin压缩包|*.bin",
+                Title = "请选择要更新的bin文件"
             };
 
             if (dialog.ShowDialog() != true)

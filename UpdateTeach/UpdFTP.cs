@@ -29,7 +29,7 @@ namespace UpdateTeach
                 try
                 {
                   
-                    string backupPath = "D:\\TeachBackup\\" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm");
+                    string backupPath = "C:\\TeachBackup\\" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm");
                     await Task.Run(() =>
                        {
                            sftp.Connect();// 连接SFTP服务器
@@ -97,13 +97,16 @@ namespace UpdateTeach
 
       public   bool Unrar(string rarFilePath, string extractPath)
         {
+           
             // 校验文件存在
             if (!File.Exists(rarFilePath))
             {
                 MessageBox.Show("更新压缩包不存在");
                 return false;
             }
-            extractPath= extractPath.Replace(".rar", "");
+
+            extractPath = extractPath.Replace(".rar", "");
+
             // 创建输出目录
             if (!Directory.Exists(extractPath))
                 Directory.CreateDirectory(extractPath);
@@ -143,10 +146,11 @@ namespace UpdateTeach
         static void UploadDirectory(SftpClient sftp, string localDir, string remoteDir)
         {
             // 远程目录不存在则报错
-            if (!sftp.Exists(remoteDir))
-            {
-                MessageBox.Show($"示教器目录{remoteDir}不存在");
-            }
+            //if (!sftp.Exists(remoteDir))
+            //{
+            //    MessageBox.Show($"示教器目录{remoteDir}不存在");
+            //}
+     
             localDir = localDir.Replace(".rar", "");
             // 本地目录不存在则报错
             if (!Directory.Exists(localDir))
@@ -159,7 +163,12 @@ namespace UpdateTeach
             {
                 string fileName = Path.GetFileName(file);
                 string remoteFilePath = Path.Combine(remoteDir, fileName).Replace("\\", "/");
-
+                int lastSlash = remoteFilePath.LastIndexOf('/');
+                string checkFilePath = remoteFilePath.Substring(0, lastSlash);
+                if (!sftp.Exists(checkFilePath))
+                {
+                    sftp.CreateDirectory(checkFilePath);
+                }
                 using (var fs = new FileStream(file, FileMode.Open, FileAccess.Read))
                 {
                     sftp.UploadFile(fs, remoteFilePath);
